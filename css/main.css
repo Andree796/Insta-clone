@@ -1,0 +1,242 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.instagram__menu{
+  text-align: center;
+}
+
+.insta__logo{
+  margin-top: 3em;
+}
+
+.campos__login{
+  margin-top: 30px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.form__login{
+  display: flex;
+  flex-direction: column;
+}
+
+.form__box{
+  display: flex;
+  justify-content: center;
+}
+
+.input__email, .input__senha{
+  font-size: 16px;
+  border: 0;
+  width: 230px;
+  height: 36px;
+  margin-top: 7px;
+}
+
+.input__email::placeholder, .input__senha::placeholder{
+  font-size: 11px;
+  padding: 5px;
+}
+
+.button__logar{
+  width: 240px;
+  height: 30px;
+  margin-top: 7px;
+  opacity: 1;
+  background-color: rgba(0,149,246,.3);
+  border: 0;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.button__logar:active{
+  background-color: #0095f6;
+  opacity: 1;
+}
+
+.texto__antes-redes-sociais{
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.entrar__facebook{
+  margin-top: 30px;
+}
+
+.link__clicavel-face{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-decoration: none;
+  color: #385185;
+  font-weight: 600;
+}
+
+.facebook{
+  color: #385185;
+  margin-right: 7px;
+  top: -1px;
+  position: relative;
+}
+
+.esquecer__senha{
+  margin-top: 20px;
+}
+
+.text__senha-esquecida{
+  font-size: 14px;
+  text-decoration: none;
+  color: #00376b;
+}
+
+.box__cadastro{
+  margin-top: 45px;
+}
+
+.link__cadastro{
+  text-decoration: none;
+  margin-left: 5px;
+  color: #0095f6;
+}
+
+.obter__aplicativo{
+  margin-top: 40px;
+}
+
+.imagem__stores{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+
+.appstore, .playstore{
+  width: 136px;
+  height: 40px;
+}
+
+.playstore{
+  margin-left: 7px;
+}
+
+
+.rodape{
+  padding-bottom: 45px;
+}
+
+.links__rodape-coluna1{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  
+}
+
+.links__rodape-coluna2{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 7px;
+  color: #8e8e8e;
+}
+
+.links__rodape-coluna3{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 7px;
+  color: #8e8e8e;
+}
+
+.links__rodape-coluna4{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 7px;
+  color: #8e8e8e;
+}
+
+.links__rodape-coluna5{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 7px;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape-col5{
+  text-decoration: none;
+  margin-left: 9px;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape1-col5{
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape-col4{
+  text-decoration: none;
+  margin-left: 9px;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape1-col4{
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape-col3{
+  text-decoration: none;
+  margin-left: 8px;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape1-col3{
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape-col2{
+  text-decoration: none;
+  margin-left: 7px;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape1-col2{
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.textos__links-rodape1{
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+.meta_2022{
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.nome__rede-social{
+  font-size: 12px;
+  margin-left: 10px;
+  color: #8e8e8e;
+}
+
+.selecionar__lingua{
+  border: 0;
+  font-size: 12px;
+  color: #8e8e8e;
+}
