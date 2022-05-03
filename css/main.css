@@ -241,7 +241,7 @@ body{
   color: #8e8e8e;
 }
 
-.textos__links-rodape-mobile425, .textos__links-rodape-col2-mobile425, .textos__links-rodape-col4-mobile425, .textos__links-rodape-tablet, .textos__links-rodape-col3-desktop{
+.textos__links-rodape-mobile425, .textos__links-rodape-col2-mobile425, .textos__links-rodape-col4-mobile425, .textos__links-rodape-tablet, .textos__links-rodape-col3-desktop, .campo__wallpaper{
   display: none;
 }
 
@@ -270,6 +270,35 @@ body{
   .rodape{
     width: 95%;
     margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .bordinha{
+    border: #d6d5d5 1px solid;
+    padding: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 17px;
+  }
+
+  .imagem__stores{
+    padding-bottom: 5px;
+  }
+
+  .box__cadastro{
+    margin-top: 0em;
+  }
+  .bordinha2{
+    border: #d6d5d5 1px solid;
+    padding: 24px;
+  }
+
+  .insta__logo{
+    margin-top: 0;
+  }
+  
+  .campos__login{
+    justify-content: center;
   }
   
   .textos__links-rodape-tablet{
@@ -279,8 +308,23 @@ body{
     color: #8e8e8e;
   }
 
-  .textos__links-rodape-tablet{
+  .flex__column{
     display: flex;
+    flex-direction: column;
+  }
+
+  .textos__links-rodape-tablet, .campos__login{
+    display: flex;
+  }
+
+  .campo__wallpaper{
+    margin-right: 30px;
+    height: 45%;
+    display: flex;
+  }
+  
+  .instawall{
+    height: 90%;
   }
 
   .links__rodape-coluna1, .links__rodape-coluna2, .links__rodape-coluna3, .links__rodape-coluna4{
@@ -290,6 +334,8 @@ body{
   .links__rodape-coluna2, .textos__links-rodape-col3-desktop{
     display: none;
   }
+
+
 }
 
 @media screen and (min-width: 1024px){
@@ -305,6 +351,6 @@ body{
   }
 
   .links__rodape-coluna1, .links__rodape-coluna2, .links__rodape-coluna3, .links__rodape-coluna4{
-    font-size: 14px;
+    font-size: 12px;
   }
 }
